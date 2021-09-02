@@ -1,0 +1,21 @@
+.collectionPage {
+    .topPart {
+        padding: 1rem 0 1rem 2rem;
+        border-bottom: 1px solid whitesmoke;
+        margin-bottom: 2rem;
+        .inputItem{
+            margin-bottom:1rem;
+        }
+    }
+
+    .giftlist {
+        padding: 2rem 0 2rem 0;
+    }
+    .deleteButton{
+        position: relative;
+        left:5rem;
+    }
+    .buttShow{
+        display: none;
+    }
+}

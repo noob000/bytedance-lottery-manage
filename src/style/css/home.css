@@ -1,0 +1,138 @@
+.homePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.homePage .formContainer {
+  width: 100%;
+  border-bottom: 1px solid whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.homePage .giftList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.homePage .giftList .planNameInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+}
+
+.homePage .giftList .planNameInput span:before {
+  content: '*';
+  color: red;
+  padding-right: 0.4rem;
+}
+
+.homePage .giftList .planNameInput input {
+  width: 180px;
+}
+
+.homePage .giftList .titleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+}
+
+.homePage .giftList .titleContainer h1 {
+  margin: 0;
+}
+
+.homePage .giftList ul {
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+
+.homePage .giftList ul .listItem {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.homePage .giftList ul .listItem:hover .delButton {
+  display: block;
+}
+
+.ant-upload-list-item {
+  width: 200px;
+}
+
+.previewPic {
+  display: block;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.delButton {
+  display: none;
+}
+
+.fileSelect {
+  position: relative;
+  left: 4rem;
+}
+
+.previewContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.previewContainer .resetDisplay {
+  display: none;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,40 @@
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.app .navList {
+  height: 40rem;
+  width: 10rem;
+  border-right: 0.5px solid whitesmoke;
+  padding: 0.5rem;
+}
+
+.app .navList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app .navList ul li {
+  padding: 10px 0 10px 10px;
+}
+
+.app .navList a {
+  text-decoration: none;
+  color: black;
+}
+
+.app .navList a:hover {
+  color: red;
+}
+
+.app .mainWrapper {
+  width: 100%;
+}
+/*# sourceMappingURL=app.css.map */

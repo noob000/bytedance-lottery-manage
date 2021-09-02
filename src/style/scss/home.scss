@@ -1,0 +1,106 @@
+.homePage {
+
+    display: flex;
+    flex-direction: column;
+
+    .formContainer {
+        width: 100%;
+        border-bottom: 1px solid whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0 2rem 0;
+    }
+
+
+    .giftList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0 2rem 0;
+
+        .planNameInput {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 1rem;
+
+            span:before {
+                content: '*';
+                color: red;
+                padding-right: 0.4rem;
+            }
+
+            input {
+                width: 180px;
+            }
+        }
+
+        .titleContainer {
+            display: flex;
+            width: 700px;
+            justify-content: space-between;
+            margin: 1rem;
+
+            h1 {
+                margin: 0;
+            }
+
+
+        }
+
+
+
+        ul {
+            width: 500px;
+            margin: 0 auto;
+            padding-left: 2rem;
+
+            .listItem {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &:hover .delButton {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.ant-upload-list-item {
+    width: 200px;
+}
+
+.previewPic {
+    display: block;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+
+
+
+
+
+
+.delButton {
+    display: none;
+}
+
+.fileSelect {
+    position: relative;
+    left: 4rem;
+}
+
+.previewContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .resetDisplay {
+        display: none;
+    }
+}
